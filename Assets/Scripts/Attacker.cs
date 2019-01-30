@@ -8,7 +8,6 @@ public class Attacker : MonoBehaviour {
     [Range(0f, 5f)] float currentSpeed = 1f;
     GameObject currentTarget;
 
-	// Update is called once per frame
 	void Update ()
     {
         transform.Translate(Vector2.left * Time.deltaTime * currentSpeed);

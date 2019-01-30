@@ -47,6 +47,4 @@ public class DefenderSpawner : MonoBehaviour {
         Defender newDefender = Instantiate(defender, worldPos, Quaternion.identity) as Defender;
     }
 
-
-
 }
