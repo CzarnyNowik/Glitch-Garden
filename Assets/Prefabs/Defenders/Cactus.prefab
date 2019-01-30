@@ -54,6 +54,7 @@ GameObject:
   - component: {fileID: 114507911172487778}
   - component: {fileID: 114179286320621780}
   - component: {fileID: 61758651927036450}
+  - component: {fileID: 114954413363911348}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -95,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1987559791455886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 2, z: 0}
+  m_LocalPosition: {x: 1.8586156, y: 3.077326, z: 0}
   m_LocalScale: {x: 0.78665406, y: 0.78665406, z: 0.78665406}
   m_Children:
   - {fileID: 4157908974937640}
@@ -170,6 +171,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1229780902452626, guid: f8276dcb5288f424790272d24110939a, type: 2}
   gun: {fileID: 1251462251383212}
+--- !u!114 &114954413363911348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1987559791455886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f684da609365f34ea5bb3c7abf409ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  deathVFX: {fileID: 0}
 --- !u!212 &212536310783613894
 SpriteRenderer:
   m_ObjectHideFlags: 1

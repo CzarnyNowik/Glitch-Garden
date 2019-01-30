@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 61952771912411668}
   - component: {fileID: 50324648223417700}
   - component: {fileID: 114253818067031878}
+  - component: {fileID: 114453068073428530}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -54,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1478461735434562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.509958, y: 2.4049792, z: 0}
+  m_LocalPosition: {x: 7.4557753, y: 3.0449448, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4411235101389604}
@@ -103,10 +104,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.47856402, y: -0.23306727}
+  m_Offset: {x: -0.47856402, y: -0.027473807}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -117,7 +118,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6703248, y: 0.7847848}
+  m_Size: {x: 0.6703248, y: 0.8452537}
   m_EdgeRadius: 0
 --- !u!95 &95728595208029186
 Animator:
@@ -150,6 +151,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 2}
+--- !u!114 &114453068073428530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1478461735434562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2811a336516e9504a813229b8bbfa607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114639810068383256
 MonoBehaviour:
   m_ObjectHideFlags: 1
