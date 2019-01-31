@@ -5,14 +5,17 @@ using UnityEngine.UI;
 
 public class LifeDisplay : MonoBehaviour {
 
-    [SerializeField] int lives = 20;
+    [SerializeField] float baseLives = 3;
     [SerializeField] int damage = 1;
+    float lives;
     Text livesText;
 
     void Start()
     {
+        lives = baseLives - PlayerPrefsController.GetDifficulty();
         livesText = GetComponent<Text>();
         UpdateDisplay();
+        Debug.Log("Difficulty setting currently is " + PlayerPrefsController.GetDifficulty());
     }
 
     private void UpdateDisplay()
@@ -27,7 +30,7 @@ public class LifeDisplay : MonoBehaviour {
         
         if(lives <= 0)
         {
-            FindObjectOfType<LoadScene>().LoadYouLose();
+            FindObjectOfType<LevelController>().HandleLoseCondition();
         }
     }
 

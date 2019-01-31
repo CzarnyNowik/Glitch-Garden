@@ -25,6 +25,24 @@ public class LoadScene : MonoBehaviour
         LoadNextScene();
     }
 
+    public void RestarScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Start Scene");
+    }
+
+    public void LoadOptions()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Options Scene");
+    }
+
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
@@ -33,6 +51,11 @@ public class LoadScene : MonoBehaviour
     public void LoadYouLose()
     {
         SceneManager.LoadScene("Lose Scene");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 }

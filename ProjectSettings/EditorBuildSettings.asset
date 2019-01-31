@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Splash Scene.unity
     guid: d52fc116b76a1554bb497cb49beaf16f
@@ -18,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: aedc8e3536d2ae4438eea222e199dcdf
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: b271a764ee3fba0428e632b28a94e8bb
-  - enabled: 1
     path: Assets/Scenes/Lose Scene.unity
     guid: bb7ae7c9d4feab145aefd363fc1da17a
+  - enabled: 1
+    path: Assets/Scenes/Options Scene.unity
+    guid: 73a7d120dda13c04686f83d6a6326b1a
   m_configObjects: {}
