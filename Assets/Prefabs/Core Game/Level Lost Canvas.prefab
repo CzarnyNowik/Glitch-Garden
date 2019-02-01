@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222211631563480444}
   - component: {fileID: 114581837636812726}
   m_Layer: 5
-  m_Name: Level Complete Text
+  m_Name: Level Lost Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 223879672583229688}
   - component: {fileID: 114415030148006468}
   - component: {fileID: 114114467876161608}
-  - component: {fileID: 61696944489704116}
+  - component: {fileID: 61280335706229942}
   m_Layer: 5
   m_Name: Level Lost Canvas
   m_TagString: Untagged
@@ -134,7 +134,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &61696944489704116
+--- !u!61 &61280335706229942
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,7 +270,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 038b8528638b1da4082c74fe50613d76, type: 3}
+    m_Font: {fileID: 12800000, guid: f7092748209348a4dbcaa0c91207e478, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -558,7 +558,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -4.8, y: 127}
-  m_SizeDelta: {x: 1193, y: 223.7}
+  m_SizeDelta: {x: 1447.4, y: 179.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224238864437626066
 RectTransform:
@@ -653,7 +653,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5, y: 3}
+  m_AnchoredPosition: {x: 4.992, y: 3}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224906403716218608
